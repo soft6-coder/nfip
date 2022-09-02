@@ -1,0 +1,44 @@
+.mobileham {
+  display: flex;
+  flex-direction: column;
+}
+.ham1,
+.ham2,
+.ham3 {
+  display: inline;
+  height: 2px;
+  background: rgb(0, 99, 0);
+  /* box-shadow: 1px 1px 1px rgb(0, 0, 0); */
+  margin-top: 0.4rem;
+}
+.ham1,
+.ham2 {
+  width: 29px;
+}
+.ham3 {
+  width: 15px;
+}
+.padding {
+  padding: 16px;
+}
+.contents-search-opened {
+  margin-left: -90%;
+  transition: 1s;
+}
+.contents-search-closed {
+  margin-left: 0%;
+  transition: 1s;
+}
+.search-opened {
+  height: 100vh;
+  width: 90%;
+  position: absolute;
+  left: 10%;
+  transition: 1s;
+}
+.search-closed {
+  left: 0%;
+}
+.pointer:hover {
+  cursor: pointer;
+}
