@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nigeria farmers/farms information portal | Farmer</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css" />
+
+    <link rel="stylesheet" href="./css/hamburger.css" />
+
+    <link rel="stylesheet" href="./css/w3.css" />
+    <link rel="stylesheet" href="./css/colors.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/farmer.css" />
+  </head>
+  <body class="background-grey">
+    <section>
+      <div
+        class="w3-bar background-grey"
+        style="padding: 4px 0px; box-shadow: 1px 1px 5px rgb(219, 242, 219)"
+      >
+        <div class="w3-bar-item">
+          <img
+            src="./images/logo.png"
+            alt=""
+            style="width: 30px; height: 30px"
+          />
+          <span class="bold medium" style="margin-left: 6px">nfip</span>
+        </div>
+        <div class="w3-bar-item w3-right">
+          <div class="hamburger hamburger--collapse">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="side-nav"
+        class="w3-padding-16 w3-animate-right background-grey"
+        style="
+          width: 100%;
+          position: absolute;
+          right: 0px;
+          height: 100vh;
+          display: none;
+          z-index: 10;
+        "
+      >
+        <div style="height: inherit; position: relative">
+          <div class="w3-bar-block">
+            <div class="w3-bar-item">
+              <a href="/">
+                <span class="medium color-dark bold" style="padding: 0px 8px"
+                  >Home</span
+                >
+
+                <hr class="hr" />
+              </a>
+            </div>
+            <div class="w3-bar-item staffs">
+              <span
+                class="medium staffs color-dark bold"
+                style="padding: 0px 8px"
+                >Staffs</span
+              >
+              <span
+                id="staffs-dropdown"
+                class="material-symbols-outlined w3-right color-dark staffs"
+                style="padding: 0px 8px"
+              >
+                expand_more
+              </span>
+              <div
+                id="staffs-options"
+                class="w3-bar-block w3-round"
+                style="display: none; padding: 8px 8px 8px 14px"
+              ></div>
+              <hr class="hr" />
+            </div>
+
+            <div class="w3-bar-item">
+              <a href="./farmers.html">
+                <span class="medium color-dark bold" style="padding: 0px 8px"
+                  >Farmers/farms</span
+                >
+                <hr class="hr" />
+              </a>
+            </div>
+            <div class="w3-bar-item states">
+              <span
+                class="medium states color-dark bold"
+                style="padding: 0px 8px"
+                >States</span
+              >
+              <span
+                id="states-dropdown"
+                class="material-symbols-outlined w3-right color-dark states"
+                style="padding: 0px 8px"
+              >
+                expand_more
+              </span>
+              <div
+                id="states-options"
+                class="w3-bar-block w3-padding"
+                style="display: none"
+              ></div>
+              <hr class="hr" />
+            </div>
+            <div class="w3-bar-item">
+              <a href="./services.html">
+                <span class="medium color-dark bold" style="padding: 0px 8px"
+                  >Services</span
+                >
+
+                <hr class="hr" />
+              </a>
+            </div>
+            <div class="w3-bar-item">
+              <a href="./about.html">
+                <span class="medium color-dark bold" style="padding: 0px 8px"
+                  >About</span
+                >
+                <hr class="hr" />
+              </a>
+            </div>
+          </div>
+
+          <!-- <div
+            class="w3-padding"
+            style="position: absolute; bottom: 0px; width: 100%"
+          >
+            <p class="no-margin-2 small w3-center bold">Contact us on</p>
+            <hr style="margin: 0px" />
+            <div class="w3-margin-top">
+              <p class="no-margin small">+234 8123456789</p>
+              <p class="no-margin small">+234 7199999999</p>
+            </div>
+            <div class="w3-row w3-center big w3-margin-top">
+              <div class="w3-col s3">
+                <i class="fa fa-instagram" style="color: rgb(205, 72, 107)"></i>
+              </div>
+              <div class="w3-col s3">
+                <i
+                  class="fa fa-facebook-square"
+                  style="color: rgb(66, 103, 178)"
+                ></i>
+              </div>
+              <div class="w3-col s3">
+                <i class="fa fa-whatsapp" style="color: rgb(37, 211, 102)"></i>
+              </div>
+              <div class="w3-col s3">
+                <i class="fa fa-linkedin" style="color: rgb(134, 136, 138)"></i>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div style="height: 200px; position: relative">
+        <img src="./images/farmland.jpg" alt="" style="width: 100%" />
+        <div
+          class="background-primary w3-margin-left"
+          style="
+            position: absolute;
+            bottom: 0px;
+            height: 100px;
+            width: 100px;
+            padding: 4px;
+            border-radius: 100px;
+          "
+        >
+          <img
+            src="./images/farmer-smile.jpg"
+            alt=""
+            style="width: 100%; border-radius: 100px"
+          />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="padding" >
+        <div class="w3-row">
+          <div class="w3-col s6">
+            <p class="big no-margin bold color-primary-dark">
+              Emmanuel Effiong
+            </p>
+          </div>
+          <div class="w3-col s6">
+            <span
+              class="material-symbols-outlined background-primary medium"
+              style="margin-top: 4px; border-radius: 25px"
+            >
+              done
+            </span>
+          </div>
+        </div>
+
+        <p class="small no-margin">
+          Creating a life, I love.
+Simplicity is the key to happiness.
+In a world of worriers, be a warrior.
+        </p>
+        </div>
+    </section>
+
+    <section>
+      <div class="padding" style="padding-top: 0px;">
+        <p class="no-margin bold big color-primary-dark">
+          Agronomic Information
+        </p>
+        <div class="w3-row">
+          <div class="w3-col s6">
+            <p class="bold medium no-margin-2 color-primary-light">
+              Nature of farm
+            </p>
+            <p class="color-primary-dark small bold no-margin-2">Great</p>
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-col s8">
+            <p class="bold medium no-margin-2 color-primary-light">
+              Name of crops
+            </p>
+            <p class="color-primary-dark small bold no-margin-2">
+              <span>&#x2022</span> 
+              Rice
+            </p>
+            <p class="color-primary-dark small bold no-margin-2"><span>&#x2022</span> Beans</p>
+            <p class="color-primary-dark small bold no-margin-2"><span>&#x2022</span> Pawpaw</p>
+            <p class="color-primary-dark small bold no-margin-2"><span>&#x2022</span> Maize</p>
+          </div>
+          <div class="w3-col s4">
+            <p class="bold medium no-margin-2 color-primary-light">
+              Major crops
+            </p>
+            <p class="color-primary-dark small bold no-margin-2">
+              <span>&#x2022</span> 
+              Rice
+            </p>
+            <p class="color-primary-dark small bold no-margin-2"><span>&#x2022</span> Beans</p>
+            <p class="color-primary-dark small bold no-margin-2"><span>&#x2022</span> Pawpaw</p>
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-col s8">
+          <p class="bold medium no-margin-2 color-primary-light">
+            Farm location
+          </p>
+          <p class="color-primary-dark small bold no-margin-2">No 5 udukpani square</p>
+          <p class="color-primary-dark small bold no-margin-2">Udukpani</p>
+          <p class="color-primary-dark small bold no-margin-2">Cross river state</p>
+        </div>
+          <div class="w3-col s4">
+            <p class="bold medium no-margin-2 color-primary-light">
+              Topography
+            </p>
+            <p class="color-primary-dark small bold no-margin-2">
+              Landscape
+            </p>
+           
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-col s8">
+          <p class="bold medium no-margin-2 color-primary-light">
+            Farm size
+          </p>
+          <p class="color-primary-dark small bold no-margin-2">2 Hectres</p>
+          <p class="color-primary-dark small bold no-margin-2">6 Plots</p>
+        </div>
+        <div class="w3-col s4">
+          <p class="bold medium no-margin-2 color-primary-light">
+            Transport
+          </p>
+          <p class="color-primary-dark small bold no-margin-2">Motorcycle</p>
+        </div>
+        </div>
+        <div class="w3-margin-top">
+        <p class="no-margin bold big color-primary-dark">
+          Socionomic Information
+        </p>
+      </div>
+      </div>
+    </section>
+
+    <script src="./data/farmers.js"></script>
+    <script src="./data/states.js"></script>
+    <script src="./data/staffs.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/farmer.js"></script>
+  </body>
+</html>
